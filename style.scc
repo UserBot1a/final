@@ -129,3 +129,133 @@ nav a:hover {
      justify-content: center;
 
 }
+/* Основные настройки */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FDFBFB;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffcc00;
+}
+
+/* Шапка сайта */
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    transition: all .3s ease-in-out;
+    background-color: white;
+    padding: 5px 200px 5px 200px;
+    border-radius: 10px ;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    color: tomato;
+}
+
+/* Галерея закусок */
+#snack-gallery h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.snack-item {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    transition: transform .3s cubic-bezier(.25,-.5,.25,1.5);
+    margin-bottom: 20px;
+}
+
+.snack-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.snack-item figcaption {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+}
+
+.snack-item:hover {
+    transform: scale(1.05);
+}
+
+/* Информационная секция */
+#info {
+    background-color: #fffdfb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    margin-top: 20px;
+}
+
+#info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Подвал */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/* Адаптивность */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    figure.snack-item {
+        width: 100%;
+    }
+}
