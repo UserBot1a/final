@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Салаты | Кулинарные рецепты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Мир салатов</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="/snacks.html">Закуски</a></li>
+                <li><a href="/firstcourses.html">Первые блюда</a></li>
+                <li><a href="/maincourse.html">Вторые блюда</a></li>
+                <li><a href="/dessert.html">Десерты</a></li>
+                <li><a href="/drinks.html">Напитки</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="salad-gallery">
+        <h2>Популярные салаты:</h2>
+        
+        <div class="gallery-container">
+            
+            <figure class="salad-item">
+                <img src="https://img.freepik.com/free-photo/halves-coconut-filled-with-fruit-salad_23-2148494780.jpg?ga=GA1.1.88128568.1747570849&semt=ais_hybrid&w=740" alt="Греческий салат">
+                <figcaption>Тропический салат</figcaption>
+            </figure>
+            
+            <figure class="salad-item">
+                <img src="https://img.freepik.com/free-photo/chicken-parmesan-caesar-salad-with-lettuce-cherry-tomatoes-inside-white-bowl-served-with-sauce-bread_114579-204.jpg?ga=GA1.1.88128568.1747570849&semt=ais_hybrid&w=740" alt="Салат Цезарь">
+                <figcaption>Салат Цезарь</figcaption>
+            </figure>
+            
+            <figure class="salad-item">
+                <img src="https://img.freepik.com/free-photo/vinegret-salad-served-with-lettuce-greens_141793-1028.jpg?ga=GA1.1.88128568.1747570849&semt=ais_hybrid&w=740"Винегрет">
+                <figcaption>Винегрет</figcaption>
+            </figure>
+            
+            <figure class="salad-item">
+                <img src="https://img.freepik.com/free-photo/top-close-view-healthy-diet-salad-with-fried-shrimp-avocado-lettuce-red-onion-berries_141793-2422.jpg?ga=GA1.1.88128568.1747570849&semt=ais_hybrid&w=740" alt="Салат с креветками">
+                <figcaption>Салат с креветками</figcaption>
+            </figure>
+            
+            <figure class="salad-item">
+                <img src="https://img.freepik.com/free-photo/salad-avocado_23-2148515467.jpg?ga=GA1.1.88128568.1747570849&semt=ais_hybrid&w=740" alt="Авокадо и помидоры">
+                <figcaption>Авокадо и помидоры</figcaption>
+            </figure>
+            
+            <figure class="salad-item">
+                <img src="https://img.freepik.com/free-photo/russian-traditional-salad-shuba-with-herring-beetroot_140725-6793.jpg?ga=GA1.1.88128568.1747570849&semt=ais_hybrid&w=740" alt="Семь слоев">
+                <figcaption>Селедка под шубой</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section id="info">
+        <h2>Полезные свойства салатов</h2>
+        <p>Салаты — лёгкая еда, богатая витаминами и минералами. Их можно приготовить быстро и вкусно, украсив любой приём пищи.</p>
+    </section>
+
+    <footer>
+        <small>© Кулинарные рецепты.</small>
+    </footer>
+</div>
+
+</body>
+</html>
