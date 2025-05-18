@@ -1,0 +1,131 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Стили шапки */
+.site-header {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.site-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+/* Основной контент */
+.content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.recipe-card,
+.recipe-item {
+    width: 150px;
+    float: left;
+    margin-right: 2%;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+
+}
+
+.recipe-card img,
+.recipe-item img {
+    width: 100%;
+    height: auto;
+}
+
+.recipe-card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+.recipe-card button:hover {
+    background-color: #ffb300;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Подвал */
+.site-footer {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+    bottom: 0;
+    height: 80px;
+}
+#featured-recipe {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-top: 2rem;
+            background-size: cover;
+            background-position: center;
+            height: 300px; /* Высота фона */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white; /* Цвет текста */
+        }
+
+        .recipe-card {
+            max-width: 60%;
+            background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный черный фон */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          }
+        
+.recipe-list {
+    height: 300px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
