@@ -50,7 +50,6 @@ nav a:hover {
     padding: 20px;
 }
 
-.recipe-card,
 .recipe-item {
     width: 150px;
     float: left;
@@ -61,13 +60,14 @@ nav a:hover {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
     margin-bottom: 20px;
+    color: black;
 
 }
 
-.recipe-card img,
+
 .recipe-item img {
     width: 100%;
-    height: auto;
+    height: 150px;
 }
 
 .recipe-card button {
@@ -80,10 +80,6 @@ nav a:hover {
     cursor: pointer;
     font-weight: bold;
     transition: all .3s ease-in-out;
-}
-
-.recipe-card button:hover {
-    background-color: #ffb300;
 }
 
 .clearfix::after {
